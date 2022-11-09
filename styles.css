@@ -75,10 +75,65 @@ ul {
   width: 500px;
   height: 225px;
   margin-left: 40px;
+  border: 5px solid #FDBE33;
+  border-radius: 10px;
 }
 
 .container {
   display: flex;
   padding-bottom: 100px;
+}
+
+.white-background {
+height: 450px;
+padding-left: 200px;
+padding-right: 200px;
+}
+
+h2 {
+display: flex;
+align-items: flex-end;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 30px;
+color: dimgray;
+font-size: 36px;
+font-weight: bolder;
+}
+
+.flex-grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-auto-rows: 240px 240px;
+row-gap: 48px;
+display: flex;
+justify-content: space-between;
 
 }
+
+figure {
+display:block;
+width:175px;
+height:175px;
+margin:0;
+padding:0;
+border: 5px solid #FDBE33;
+border-radius: 10px;
+
+}
+
+.col {
+display: flex;
+flex-direction: column;
+
+}
+
+.t {
+margin-top: 10px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+color:dimgray;
+max-width: 175px;
+}
+
