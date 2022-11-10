@@ -136,9 +136,9 @@ max-width: 175px;
 
 .grey-background {
 background-color: hwb(247 93% 3%);
-height: 450px;
-padding-left: 200px;
-padding-right: 200px;
+height: 425px;
+padding-left: 350px;
+padding-right: 300px;
 }
 
 .review {
@@ -154,4 +154,47 @@ padding-top: 125px;
 h3 {
 display: flex;
 justify-content: flex-end;
+}
+
+.cta-section {
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  margin: 100px 0px 100px 0px
+}
+.cta-container {
+  display:flex;
+  margin:0;
+  padding:0;
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  background-color: #3882F6;
+  padding-left: 100px;
+  height: 140px;
+}
+
+.flex-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.bottom-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-left: 300px;
+}
+
+h4 {
+  margin-top: 10px ;
+  font-size: 24px;
+}
+
+.cta-text {
+color: rgb(214, 220, 229);
+margin-top: -30px;
 }
